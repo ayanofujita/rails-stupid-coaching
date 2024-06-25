@@ -1,0 +1,11 @@
+<div class="border-start border-4 p-2 m-4">
+  <%= @message %>
+  <p class="mb-1"><em>- you</em></p>
+</div>
+
+<div class="border-start border-4 p-2 m-4 bg-warning">
+  <%= @answer %>
+  <p class="mb-1"><em>- your coach</em></p>
+</div>
+
+<%= link_to "Ask  new question", ask_path%>
